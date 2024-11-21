@@ -1,0 +1,105 @@
+
+.add-product-container {
+    width: 90%;
+    max-width: 600px;
+    margin: 50px 300px 100px; /* Centrage du formulaire avec des marges */
+    padding: 30px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style du titre */
+  .add-product-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+  
+  /* Style du formulaire */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Augmenter l'écart entre les éléments */
+  }
+  
+  /* Style des labels */
+  label {
+    font-size: 16px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  /* Style pour les champs de saisie (inputs) */
+  input[type="text"],
+  input[type="number"] {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+  
+  /* Style au focus des champs de saisie */
+  input[type="text"]:focus,
+  input[type="number"]:focus {
+    border-color: #3498db;
+  }
+  
+  /* Style pour le bouton de soumission */
+  button {
+    padding: 12px 20px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Effet de survol pour le bouton */
+  button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Style pour les messages d'erreur ou validation */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  
+  /* Style pour les divs contenant des champs */
+  div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Pour rendre le formulaire plus propre et arrondi */
+  .add-product-container {
+    background-color: #f4f7f6;
+    border-radius: 10px;
+    padding: 30px;
+  }
+  
+  /* Responsive : pour les petits écrans */
+  @media (max-width: 768px) {
+    .add-product-container {
+      width: 95%;
+      padding: 20px;
+    }
+  
+    button {
+      font-size: 14px;
+      padding: 10px 15px;
+    }
+  
+    input[type="text"], input[type="number"] {
+      padding: 8px;
+    }
+  }
+  

@@ -1,0 +1,90 @@
+/* Conteneur principal */
+.container {
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Titre */
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table */
+  .table {
+    width: 100%;
+    margin-right: 700px; 
+    border-collapse: collapse;
+    margin-left: 100px; 
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  .table th,
+  .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .table tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  /* Images */
+  .table img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  /* Boutons */
+  button {
+    background-color: #e74c3c;
+    color: rgb(56, 56, 56);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #c0392b;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .table {
+      font-size: 12px;
+    }
+  
+    .table th,
+    .table td {
+      padding: 6px;
+    }
+  
+    button {
+      font-size: 12px;
+      padding: 4px 10px;
+    }
+  }
+  
